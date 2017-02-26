@@ -1,0 +1,196 @@
+body {
+    background-color: #ddeeff;
+}
+.japan, .micronesia, .czech, .malaysia {
+    margin: 50px auto;
+    box-shadow: 3px 3px 5px #cccccc,
+    -1px -1px 2px #cccccc;
+    position: relative;
+}
+.japan, .czech {
+    width: 600px;
+    height: 400px;
+}
+.japan:before, .star1:before, .star2:before, .star3:before, .star4:before, .star1:after, .star2:after, .star3:after, .star4:after, .czech:before, .malaysia:before, .malaysia:after, .spike1:before, .spike1:after, .spike2:before, .spike2:after, .spike3:before, .spike3:after, .spike4:before, .spike4:after, .spike5:before, .spike5:after {
+    content: "";
+    position: absolute;
+}
+.japan {
+    background-color: #ffffff;
+}
+.japan:before {
+    width: 240px;
+    height: 240px;
+    top: -160px;
+    left: -60px;
+    box-shadow: 240px 240px 0 #C70025;
+    z-index: 3;
+    border-radius: 50%;
+}
+.micronesia {
+    width: 700px;
+    height: 368.42105px;
+    background-color: #75b2dd;
+}
+.star1, .star2, .star3, .star4 {
+    width:0;
+    height:0;
+    border-bottom: 70px solid #ffffff;
+    border-left: 30px solid transparent;
+    border-right: 30px solid transparent;
+    position: absolute;
+}
+.star1:before, .star2:before, .star3:before, .star4:before {
+    border-top: 30px solid #ffffff;
+    border-left: 40px solid transparent;
+    border-right: 40px solid transparent;
+    top: 25px;
+    left: -40px
+}
+.star1:after, .star2:after, .star3:after, .star4:after {
+    border-bottom: 16px solid #75b2dd;
+    border-left: 30px solid transparent;
+    border-right: 30px solid transparent;
+    top: 55px;
+    left: -30px;
+}
+.star1 {
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.star2 {
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotateZ(180deg);
+}
+.star3 {
+    top: 50%;
+    left: 34%;
+    transform: translate(-50%, -50%) rotateZ(-90deg);
+}
+.star4 {
+    top: 50%;
+    left: 66%;
+    transform: translate(-50%, -50%) rotateZ(90deg);
+}
+.czech {
+    background-image: linear-gradient(0deg, #d7141a, #d7141a 200px, #ffffff 200px, #ffffff 400px);
+}
+.czech:before {
+    width: 0;
+    height: 0;
+    border-left: 300px solid #11457e;
+    border-top: 200px solid transparent;
+    border-bottom: 200px solid transparent;
+    z-index: 3;
+}
+.malaysia {
+    background-image: repeating-linear-gradient(0deg, #ffffff, #ffffff 25px, #cc0001 25px, #cc0001 50px);
+    width: 700px;
+    height: 350px;
+}
+.malaysia:before {
+    width: 350px;
+    height: 175px;
+    top: -175px;
+    left: -350px;
+    box-shadow: 350px 175px #010066;
+    z-index: 2;
+}
+.malaysia:after {
+    top: 32.8125px;
+    left: 93.75px;
+    width: 116.66667px;
+    height: 116.66667px;
+    z-index: 3;
+    border-radius: 50%;
+    box-shadow: -17.70834px 0 0 7.29666px #ffcc00;
+}
+
+.spike1, .spike1:before, .spike1:after, .spike2, .spike2:before, .spike2:after, .spike3, .spike3:before, .spike3:after, .spike4, .spike4:before, .spike4:after, .spike5, .spike5:before {
+    height: 0;
+    width: 0;
+    border-left: 4.90874px solid transparent;
+    border-right: 4.90874px solid transparent;
+    border-bottom: 32.8125px solid #ffcc00;
+    z-index: 3;
+}
+.spike1, .spike2, .spike3, .spike4, .spike5 {
+    position: absolute;
+}
+.spike1:before , .spike2:before , .spike3:before , .spike4:before , .spike5:before {
+    transform: rotate(25.71429deg);
+}
+.spike1:after, .spike2:after, .spike3:after, .spike4:after {
+    transform: rotate(51.42857deg);
+}
+.spike1 {
+    top: 32.8125px;
+    left: 213.84126px;
+}
+.spike1:before {
+    top: 4px;
+    left: 12px;
+}
+.spike1:after {
+    top: 15px;
+    left: 24px;
+}
+.spike2 {
+    top: 62px;
+    left: 249px;
+    transform: rotate(77.14286deg);
+}
+.spike2:before {
+    top: 5px;
+    left: 12px;
+}
+.spike2:after {
+    top: 16px;
+    left: 24px;
+}
+.spike3 {
+    top: 103px;
+    left: 229px;
+    transform: rotate(154.28571deg);
+}
+.spike3:before {
+    top: 5px;
+    left: 12px;
+}
+.spike3:after {
+    top: 15px;
+    left: 25px;
+}
+.spike4 {
+    top: 92px;
+    left: 183px;
+    transform: rotate(231.42857deg);
+}
+.spike4:before {
+    top: 5px;
+    left: 12px;
+}
+.spike4:after {
+    top: 15px;
+    left: 25px;
+}
+.spike5 {
+    top: 45px;
+    left: 185px;
+    transform: rotate(308.57143deg);
+}
+.spike5:before {
+    top: 4px;
+    left: 12px;
+}
+.spike5:after {
+    height: 44px;
+    width: 44px;
+    z-index: 3;
+    border-radius: 50%;
+    box-shadow: 44px 44px #ffcc00;
+    top: -13px;
+    left: -68px
+}

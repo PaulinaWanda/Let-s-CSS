@@ -281,7 +281,7 @@ body, .top, .roof, .body, .body:before, .body:after, .tower,  .floor, .block, .m
     top: 9px;
 }
 .hull:after {
-    content: "TU-154";
+    content: "AZ785";
     font-size: 7px;
     font-family: sans-serif;
     height: 20px;
